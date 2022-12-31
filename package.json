@@ -1,5 +1,5 @@
 {
-  "name": "madjoylab",
+  "name": "psychology.madjoylab",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,11 @@
     "start": "./node_modules/.bin/next start",
     "lint": "./node_modules/.bin/next lint",
     "prettier": "./node_modules/.bin/prettier --write \"{src,__{tests,mocks}__}/**/*{.js,.ts,.tsx}\"",
-    "docker-build": "docker build -t madjoylab-nextjs .",
-    "docker-run": "docker run -p 3000:3000 madjoylab-nextjs",
+    "docker-build": "docker build -t psychology-madjoylab-nextjs .",
+    "docker-run": "docker run -p 3000:3000 psychology-madjoylab-nextjs",
     "docker-images": "docker images",
     "analyze": "./node_modules/.bin/cross-env ANALYZE=true yarn build && serve .next/analyze",
-    "sitemap": "./node_modules/.bin/cross-env SITE_URL=https://madjoylab.ru ./node_modules/.bin/next-sitemap"
+    "sitemap": "./node_modules/.bin/cross-env SITE_URL=https://psychology.madjoylab.ru ./node_modules/.bin/next-sitemap"
   },
   "dependencies": {
     "@emotion/cache": "^11.10.5",
