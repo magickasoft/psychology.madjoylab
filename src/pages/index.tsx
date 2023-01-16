@@ -54,11 +54,11 @@ const HomePage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <meta property="twitter:url" content={t('HomePage.SEO.twitter.url')} />
       </Head>
       <Intro />
-      <Services />
+      {/* <Services />
       <Benefits />
       <TechStacks />
       <WorkWithUs />
-      <Clients />
+      <Clients /> */}
     </>
   );
 };

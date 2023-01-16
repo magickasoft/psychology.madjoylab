@@ -38,7 +38,7 @@ export const Intro = props => {
         <Container>
           <Brand>{t('HomePage.Intro.title')}</Brand>
         </Container>
-        <CompaniesList />
+        {/* <CompaniesList /> */}
       </section>
     </Element>
   );
