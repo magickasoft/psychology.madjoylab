@@ -25,7 +25,7 @@
     "@next/bundle-analyzer": "13.1.5",
     "@next/font": "13.1.5",
     "@vercel/analytics": "0.1.8",
-    "axios": "^1.2.5",
+    "axios": "^1.2.6",
     "color": "^4.2.3",
     "cross-env": "^7.0.3",
     "formik": "^2.2.9",
