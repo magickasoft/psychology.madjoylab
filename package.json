@@ -21,7 +21,7 @@
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "11.10.6",
     "@mui/icons-material": "5.11.11",
-    "@mui/material": "5.11.11",
+    "@mui/material": "5.11.12",
     "@next/bundle-analyzer": "13.2.3",
     "@next/font": "13.2.3",
     "@vercel/analytics": "0.1.11",
